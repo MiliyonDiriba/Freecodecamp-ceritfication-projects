@@ -16,32 +16,38 @@
     <form id="survey-form">
       <div class="form-group">
         <label for="name" id="name-label">Name</label>
-          <input 
+          <input class="form-control"
                 type="text" 
                 id="name"
+                name="name
                 placeholder="Enter Your Name"
                 required>
       </div>
       
       <div class="form-group">
         <label for="email" id="email-label">Email</label>   
-          <input 
+          <input class="form-control" 
                 type="email" 
                 id="email"
+                name="email"
                 placeholder="Enter Your Email"
                 required>
       </div>
       
       <div class="form-group">
-      <label for="age" id="number-label">Age(optional)</label>
-          <input 
+      <label for="age" id="number-label">Age<span class="clue">(optional)</span></label>
+          <input class="form-control"
                 type="number" 
                 id="number"
+                name="age"
+                min="10"
+                max="99"
                 placeholder="Age"
                 required>
       </div>
       
       <div class="form-group">
+        <p>Which option best describes your current role?</p>
         <select id="dropdown" name="role" class="form-control" required>
           <option value disabled selected>Select current role</option>
           <option value="student">Student</option>
@@ -58,7 +64,7 @@
                 class="input-radio"
                 type="radio"
                 name="user-recommend"
-                value="definitely">definitely</label>
+                value="definitely" checked>definitely</label>
       </div>
       <div class="form-group">
         <label>
