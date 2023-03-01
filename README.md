@@ -6,4 +6,9 @@ building survey form which is used to collect data from your user.
 # Project2_building Tribute page
 
 Objective: Build an app that is functionally similar to https://tribute-page.freecodecamp.rocks.
+Building a tribute page for a subject of your choosing, fictional or real.
+
+
+
+
 
